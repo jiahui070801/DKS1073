@@ -1,3 +1,3 @@
-Celsius = int(input('\nUser enter the celsius'))
+Celsius = int(input('User enter the celsius'))
 Fahrenheit = int((Celsius*9/5) + 32)
-print(Fahrenheit)
+print(f'Display the Fahrenheit:{Fahrenheit}')
