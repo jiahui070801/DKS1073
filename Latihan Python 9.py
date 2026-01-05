@@ -1,0 +1,8 @@
+name = str(input('\nUser  enter the student name:'))
+subject1 = int(input('\nUser enter the marks for subject 1:'))
+subject2 = int(input('\nUser enter the marks for subject 2:'))
+subject3 = int(input('\nUser enter the marks for subject 3:'))
+Total_marks = int(subject1 + subject2 + subject3)
+Average_marks = int(Total_marks/3)
+print(Total_marks)
+print(Average_marks)
